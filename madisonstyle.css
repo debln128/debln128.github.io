@@ -1,0 +1,43 @@
+body{
+  background-color:white;
+}
+
+h1{
+
+  font-family : Quicksand;
+  font-size : 42px;
+  font-weight:lighter;
+  color : #231F20;
+  color : rgb(35, 31, 32);
+  text-align:center;
+  
+}
+
+
+img {
+  height: 100px;
+  top:500px;
+  padding-top:250px;
+  padding-left:15px;
+}
+
+  
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+

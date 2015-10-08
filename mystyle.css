@@ -2,16 +2,6 @@ body {
     background-color: #248F8F;
 }
 
-.image {
-    width: 200px;
-    position: absolute;
-    top: 20px;
-    left: 100px;
-    opacity: .7;
-    -webkit-filter: blur(6px);
-    
-}
-
 
 
 h1 

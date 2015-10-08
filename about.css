@@ -1,0 +1,141 @@
+body {
+    background-color:white;
+    margin:0;
+}
+
+.wrapper p{
+  position:absolute;
+  width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  font-family : Quicksand;
+  font-weight:lighter;
+  font-size : 24px;
+  padding-top:250px;
+  margin-left: 200px;
+  display:block;
+  line-height:35px;
+  color:#585858 ;
+  
+}
+
+.wrapper p2{
+  position:absolute;
+  margin: 0 auto;
+  text-align: right;
+  font-family : Quicksand;
+  font-weight:lighter;
+  font-size : 16px;
+  margin-left: 1050px;
+  margin-top:600px;
+  display:block;
+  color:#585858 ;
+  
+}
+
+.wrapper h2{
+  position:absolute;
+  margin: 0 auto;
+  text-align: left;
+  font-family : Quicksand;
+  font-size : 28px;
+  font-weight:normal;
+  color : #585858 ;
+  text-align:center;
+  margin-left: 200px;
+  padding-top:200px;
+  text-decoration:none;
+}
+
+.navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: #ffffff;
+height: 35px;
+padding-top: 15px;
+/* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 0px 0px #000000;
+-moz-box-shadow: 0px 0px 0px 0px #000000;
+box-shadow: 0px 0px 08px 0px #000000;
+/* Adds the transparent background */
+background-color: rgba(1, 1, 1, 0.5);
+color: rgba(1, 1, 1, 0.8);
+}
+
+.navigation a{
+  font-family : Quicksand;
+  font-size : 18px;
+  font-weight:lighter;
+  color : white;
+  margin:2px;
+  text-decoration:none;
+  text-align:left;
+}
+
+
+#about {
+  position:absolute;
+  font-family : Quicksand;
+  font-size : 18px;
+  font-weight:lighter;
+  color : white;
+  margin-left:900px;
+  text-decoration:none;
+  
+}
+
+
+
+#circlehome {
+  position:absolute;
+  left : 508px;
+  top : 11px;
+  width : 32px;
+  height : 32px;
+  
+  
+}
+
+#xhome {
+  position:absolute;
+  left : 556px;
+  top : 11px;
+  width : 30px;
+  height : 30px;
+}
+
+#fish {
+  position : absolute ;
+  left : 605px;
+  top : 11px;
+  width : 35px;
+  height : 31px;
+}
+
+#trianglehome {
+  position : absolute ;
+  left : 653px;
+  top : 12px;
+  width : 32px;
+  height : 30px;
+}
+
+#squarehome {
+  position : absolute ;
+  left : 703px;
+  top : 12px;
+  width : 30px;
+  height : 30px;
+
+}
+
+#shufflehome {
+  position:absolute;
+  left : 752px;
+  top : 10px;
+  width : 23px;
+  height : 35px;
+}
+
+
