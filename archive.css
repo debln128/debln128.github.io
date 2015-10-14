@@ -1,0 +1,463 @@
+body {
+    margin:0;
+}
+
+@font-face {
+    font-family: Latin-Modern-Mono;
+    src: url(Latin-Modern-Mono/archivefont.otf);
+}
+
+@-webkit-keyframes color_change {
+0% { color: blue; }
+25% { color: orange; }
+50% { color: yellow; }
+75% { color: black; }
+100% { color: red; }
+	
+}
+
+    
+    
+.wrapper {
+  width:1200px;
+	height:700px;
+	background-color:white;
+	margin:50px auto;
+	position:relative;
+}
+
+h1 {
+    font-family:Latin-Modern-Mono;
+    font-size:48px;
+    font-weight:lighter;
+    color:black;
+    text-align:center;
+    
+  -webkit-animation: color_change 7s infinite alternate;
+	-moz-animation: color_change 7s infinite alternate;
+	-ms-animation: color_change 7s infinite alternate;
+	-o-animation: color_change 7s infinite alternate;
+	animation: color_change 7s infinite alternate;
+
+}
+
+
+
+.qr1 img {
+  position : absolute ;
+  left : 26px;
+  top : 163px;
+  width : 200px;
+  height : 200px;
+}
+
+.qr1 p{
+  
+  position : absolute ;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 100px;
+  top : 120px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr1 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+.qr2 img {
+  position : absolute ;
+  left : 218px;
+  top : 163px;
+  width : 200px;
+  height : 200px;
+}
+
+.qr2 p {
+  position:absolute;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 300px;
+  top : 120px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr2 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+.qr3 img {
+  position : absolute ;
+  left : 26px;
+  top : 365px;
+  width : 200px;
+  height : 200px;
+}
+
+.qr3 p {
+  position:absolute;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 100px;
+  top : 561px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr3 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+.qr4 img {
+  position : absolute ;
+  left : 216px;
+  top : 365px;
+  width : 200px;
+  height : 200px;
+  
+}
+
+.qr4 p {
+  position:absolute;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 300px;
+  top : 561px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr4 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+
+.qr4 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+}
+
+.qr5 img {
+  position : absolute ;
+  left : 440px;
+  top : 163px;
+  width : 200px;
+  height : 200px;
+  
+}
+
+.qr5 p {
+  position:absolute;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 520px;
+  top : 120px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr5 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+.qr6 img {
+  position : absolute ;
+  left : 440px;
+  top : 367px;
+  width : 200px;
+  height : 200px;
+  
+}
+
+.qr6 p {
+  position:absolute;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 480px;
+  top : 561px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr6 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+.qr7 img {
+  position:absolute;
+  left:640px;
+  top:163px;
+  width:135px;
+  height:135px;
+}
+
+.qr7 p {
+  position:absolute;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 682px;
+  top : 120px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr7 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+.qr8 img {
+  position:absolute;
+  left:640px;
+  top:298px;
+  width:135px;
+  height:135px;
+}
+
+
+
+.qr8 p {
+  position:absolute;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 580px;
+  top : 561px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr8 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+.qr9 img {
+  position:absolute;
+  left:640px;
+  top:433px;
+  width:135px;
+  height:133px;
+}
+
+
+.qr9 p {
+  position:absolute;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 680px;
+  top : 561px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr9 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+.qr10 img {
+  position:absolute;
+  left:795px;
+  top:162px;
+  width:202px;
+  height:202px;
+}
+
+
+.qr10 p {
+  position:absolute;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 875px;
+  top : 120px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr10 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+
+.qr12 img {
+  position:absolute;
+  left:795px;
+  top:361px;
+  width:202px;
+  height:204px;
+}
+
+.qr12 p{
+  
+  position : absolute ;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 870px;
+  top : 561px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr12 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+
+
+
+.qr11 img {
+  position:absolute;
+  left:997px;
+  top:163px;
+  width:204px;
+  height:200px;
+}
+
+
+.qr11 p{
+  
+  position : absolute ;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 1080px;
+  top : 120px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr11 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
+
+
+.qr13 img {
+  position:absolute;
+  left:997px;
+  top:361px;
+  width:204px;
+  height:204px;
+  
+}
+
+
+.qr13 p{
+  
+  position : absolute ;
+  font-family:Latin-Modern-Mono;
+  font-size:14px;
+  font-weight:lighter;
+  color:black;
+  left : 1080px;
+  top : 561px;
+  width : 50px;
+  height : 20px;
+  text-align:center;
+  
+}
+
+.qr13 p:hover {
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+  
+}
+
