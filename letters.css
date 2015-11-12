@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.a p{
+    margin-top:2px;
+    text-align:center;
+}
+
+.a1 p{
+    margin-top:-15px;
+    text-align:center;
+}
+
+.a2 p{
+    margin-top:-15px;
+    margin-left:15px;
+}

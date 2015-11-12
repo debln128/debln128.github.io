@@ -1,0 +1,17 @@
+.a1 {
+    width: 25px;
+	height: 25px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.a2 {
+    width: 50px;
+	height: 25px;
+	background: black;
+	margin-top:-25px;
+	margin-left:35px;
+	
+}
