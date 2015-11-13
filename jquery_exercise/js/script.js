@@ -31,7 +31,10 @@ If the user has activated the button, toggle the visibility of id "cat" to revea
 
 var clicked = false;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3158b7fac5ea0b8ca968bbf8a1c4ae001c023d12
 $("body").addClass("gradient");
 $("#pirate").remove();
 $("#toggle").click(function() {
@@ -46,6 +49,7 @@ $("#toggle").click(function() {
         $("#status").css ("background-color", "red");
     $("#toggle").html("Start");
     clicked = false;
+<<<<<<< HEAD
     }
     
     
@@ -59,10 +63,17 @@ $("#status").mouseleave(function() {
     $("#status").html("GO");
     });
 
+=======
+        
+    }
+>>>>>>> 3158b7fac5ea0b8ca968bbf8a1c4ae001c023d12
 });
 
 
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3158b7fac5ea0b8ca968bbf8a1c4ae001c023d12
