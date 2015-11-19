@@ -2,12 +2,18 @@ body {
 	margin:0;
 }
 
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
 #buttonDiv {
 	width: 50px;
 	height: 50px;
 	background: yellow;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
+	
 
 }
 
@@ -15,6 +21,7 @@ body {
 	width:1800px;
 	height:200px;
 	margin-top:100px;
+
 }
 
 #imageDiv2 {
@@ -35,3 +42,60 @@ body {
 	margin-left:1000px;
 	margin-top:-120px;
 }
+
+#imageDiv5 {
+	width:800px;
+	height:100px;
+	margin-left:1000px;
+	margin-top:-800px;
+	
+}
+
+#imageDiv6 {
+	width:400px;
+	height:300px;
+	margin-left:0px;
+	margin-top:-300px;
+	
+}
+
+#imageDiv7 {
+	width:1000px;
+	height:50px;
+	margin-left:1000px;
+	margin-top:-470px;
+	
+}
+
+#imageDiv8 {
+	width:500px;
+	height:150px;
+	margin-left:1000px;
+	margin-top:-500px;
+	
+}
+
+#imageDiv9 {
+	width:900px;
+	height:70px;
+	margin-left:1000px;
+	margin-top:-600px;
+	
+}
+
+#imageDiv10 {
+	width:1000px;
+	height:300px;
+	margin-left:0px;
+	margin-top:-900px;
+	
+}
+
+#imageDiv11 {
+	width:800px;
+	height:800px;
+	margin-left:0px;
+	margin-top:-600px;
+	
+}
+
