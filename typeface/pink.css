@@ -1,6 +1,7 @@
 body {
     margin:0px;
     background-color:pink;
+    font-family: Quicksand, Quicksand-Regular, sans-serif;
 }
 
 @font-face {
