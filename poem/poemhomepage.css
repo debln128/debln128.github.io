@@ -1,0 +1,189 @@
+
+.wrapper {
+    width:1000px;
+    height:400px;
+    margin-top: 200px;
+    margin-left:500px;
+    position:relative;
+
+}
+
+.title text {
+    font-family:courier;
+     text-align:center;
+     font-size:60px;
+     margin-top:5px;
+     margin-top:-120px;
+     margin-left:375px;
+     position:absolute;
+}
+
+
+
+.birth {
+     width:300px;
+     height:50px;
+     background-color:white;
+     border-style:solid;
+     position:absolute;
+    
+}
+
+.birth p{
+     font-family:courier;
+     text-align:center;
+     font-size:35px;
+     margin-top:5px;
+    
+}
+
+.birth:hover {
+    background-color: black;
+    
+}
+
+.birth:hover p{
+    color:white;
+    
+}
+
+
+.trust {
+     width:300px;
+     height:50px;
+     background-color:white;
+     border-style:solid;
+     position:absolute;
+     margin-top:70px;
+    
+}
+
+.trust:hover {
+    background-color:cyan;
+    
+}
+
+.trust:hover p{
+    color:white;
+    
+}
+
+.trust p {
+     font-family:courier;
+     text-align:center;
+     font-size:35px;
+     margin-top:5px;
+    
+}
+
+.purpose {
+     width:300px;
+     height:50px;
+     background-color:white;
+     border-style:solid;
+     position:absolute;
+     margin-top:140px;
+    
+}
+
+.purpose p {
+     font-family:courier;
+     text-align:center;
+     font-size:35px;
+     margin-top:5px;
+    
+}
+
+.purpose:hover {
+    background-color:yellow;
+    
+}
+
+.purpose:hover p{
+    color:black;
+    
+}
+
+.love {
+     width:300px;
+     height:50px;
+     background-color:white;
+     border-style:solid;
+     position:absolute;
+     margin-top:210px;
+    
+}
+
+.love p {
+     font-family:courier;
+     text-align:center;
+     font-size:35px;
+     margin-top:5px;
+    
+}
+
+.love:hover {
+    background-color:magenta;
+    
+}
+
+.love:hover p{
+    color:white;
+    
+}
+
+.wisdom {
+     width:300px;
+     height:50px;
+     background-color:white;
+     border-style:solid;
+     position:absolute;
+     margin-top:280px;
+    
+}
+
+.wisdom p {
+     font-family:courier;
+     text-align:center;
+     font-size:35px;
+     margin-top:5px;
+    
+}
+
+.wisdom:hover {
+    background-color:lime;
+    
+}
+
+.wisdom:hover p{
+    color:white;
+    
+}
+
+.death {
+     width:300px;
+     height:50px;
+     background-color:white;
+     border-style:solid;
+     position:absolute;
+     margin-top:350px;
+    
+}
+
+.death p {
+     font-family:courier;
+     text-align:center;
+     font-size:35px;
+     margin-top:5px;
+    
+}
+
+.death:hover {
+    background-color:black;
+    
+}
+
+.death:hover p{
+    color:white;
+    
+}
