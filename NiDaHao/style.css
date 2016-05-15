@@ -1,0 +1,200 @@
+body{
+  background: #7E969E;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('neou_thin.ttf');
+}
+
+#thetitle{
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  top:30px;
+  color: white;
+  font-size: 80px;
+  font-weight: lighter;
+  font-family: myFont;
+  /*text-align: center;*/
+}
+
+#mycanvas{
+  position: absolute;
+  background: transparent;
+  border: 1px solid grey;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: crosshair;
+}
+
+#gridcanvas {
+  position: absolute;
+  border: 1px solid grey;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  background: white;
+}
+
+#shapeBar{
+  position: absolute;
+  background: #cccccc;
+  border: 2px solid grey;
+  width: 5%;
+  height: 70%;
+  top: 16%;
+  left: 3.2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shapeSelect{
+  border: 1px black solid;
+  margin: 20px 0px 10px 0px;
+  flex: 0 0 auto;
+}
+
+#square1{
+  /*width: 70%;*/
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  border: #A8A8A8 1px solid;
+}
+
+#square2{
+  /*width: 55%;*/
+  width: 55px;
+  height:55px;
+  border: #A8A8A8 1px solid;
+}
+
+#square3{
+  width: 40px;
+  height: 40px;
+  border: #A8A8A8 1px solid;
+}
+
+#circle1{
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  border: #A8A8A8 1px solid;
+}
+
+#circle2{
+  width:55px;
+  height: 55px;
+  border-radius: 55px;
+  border: #A8A8A8 1px solid;
+}
+
+#circle3{
+  width:40px;
+  height: 40px;
+  border-radius: 40px;
+  border: #A8A8A8 1px solid;
+}
+
+
+#squareWipe{
+  width: 60px;
+  height: 60px;
+  border: 1px dotted white;
+}
+
+#circleWipe{
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  border: 1px dotted white;
+}
+
+#colorBar{
+  position: absolute;
+  background: #cccccc;
+  border: 2px solid grey;
+  width: 5%;
+  height: 70%;
+  top: 16%;
+  left: 91.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colorSelect{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  /*border: 1px black solid;*/
+  margin: 62px 0px 10px 0px;
+  flex: 0 0 auto;
+}
+
+#black{
+  background-color: black;
+}
+
+#white{
+  background-color: white;
+}
+
+#red{
+  background-color: #9F353A;
+}
+
+#green{
+  background-color: #4A593D;
+}
+
+#blue{
+  background-color: #0089A7;
+}
+
+#yellow{
+  background-color: #EBB471;
+}
+
+/*download box*/
+#downloadButton{
+  position: absolute;
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+  top: 85%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+
+}
+
+#saveButton{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#reloadButton{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 85%;
+  left: 41%;
+  cursor: pointer;
+}
+
+#gridButton{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 85%;
+  left: 54.6%;
+  cursor: pointer;
+}

@@ -1,28 +1,22 @@
 body {
 	margin:0;
 	font-size: 12px;
-    font-family: arial;
+    font-family: avenir;
+	width: 100%;
+	height: 100%:
 }
 
-html, body { height: 100%; }
-
-
-#buttonDiv {
-	width: 50px;
-	height: 50px;
-	background: yellow;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	z-index: -20;
-
+*::selection {
+	background-color: transparent;
 }
+
 .navigation{
+	position: absolute;
     width:520px;
     height:10px;
     margin-top:20px;
     margin-left:20px;
-    position:relative;
-
+		z-index: 1;
 }
 
 
@@ -33,41 +27,11 @@ html, body { height: 100%; }
      position:absolute;
      color:black;
      font-weight:normal;
-     z-index:1000;
-}
-
-
-.wrapper {
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  height: 100%;
-}
-
-.content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.box {
-  position: absolute;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-
-}
-
-.drawspace {
-  height: 100%;
-  width: 100%;
-  
- 
 }
 
 .phrase {
   position: absolute;
-  font-size: 50px;
+  font-size: 21px;
   color:black;
   -webkit-animation-name: example; /* Chrome, Safari, Opera */
   -webkit-animation-duration: 330s; /* Chrome, Safari, Opera */
@@ -77,40 +41,51 @@ html, body { height: 100%; }
 
 }
 
-#imageDiv {
-	width:1800px;
-	height:200px;
-	margin-top:100px;
-	z-index: -1000px;
-
-}
-
-
-
-
-@keyframes example {
+/* @keyframes example {
     from {background-color: red;}
     to {background-color: yellow;}
 }
+*/
 
 #buttonDiv {
-	width: 50px;
+	position: absolute;
+	top: 550px;
+	left: 125px;
+	width: 100px;
 	height: 50px;
-	background: yellow;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	
-
+	outline-color: black;
+	outline-style: solid;
+	z-index: 100;
 }
 
 #imageDiv {
-	width:1800px;
-	height:200px;
+	width:640px;
+	height:640px;
 	margin-top:100px;
-
+	left:450px;
+	position: absolute
 }
 
-#imageDiv2 {
+#text {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 25px;
+	z-index: -1;
+}
+
+#text ul{
+	position: absolute;
+	margin-top: -218px;
+	margin-left: 78px;
+	font-family: avenir;
+	color: black;
+	font-size: 18px;
+	z-index: 100;
+}
+
+
+
+/*#imageDiv2 {
 	width:1800px;
 	height:100px;
 	margin-top:120px;
@@ -134,7 +109,6 @@ html, body { height: 100%; }
 	height:100px;
 	margin-left:1000px;
 	margin-top:-800px;
-	
 }
 
 #imageDiv6 {
@@ -142,7 +116,6 @@ html, body { height: 100%; }
 	height:300px;
 	margin-left:0px;
 	margin-top:-300px;
-	
 }
 
 #imageDiv7 {
@@ -150,7 +123,6 @@ html, body { height: 100%; }
 	height:50px;
 	margin-left:1000px;
 	margin-top:-470px;
-	
 }
 
 #imageDiv8 {
@@ -158,7 +130,6 @@ html, body { height: 100%; }
 	height:150px;
 	margin-left:1000px;
 	margin-top:-500px;
-	
 }
 
 #imageDiv9 {
@@ -166,7 +137,6 @@ html, body { height: 100%; }
 	height:70px;
 	margin-left:1000px;
 	margin-top:-600px;
-	
 }
 
 #imageDiv10 {
@@ -174,7 +144,6 @@ html, body { height: 100%; }
 	height:300px;
 	margin-left:0px;
 	margin-top:-900px;
-	
 }
 
 #imageDiv11 {
@@ -182,6 +151,6 @@ html, body { height: 100%; }
 	height:800px;
 	margin-left:0px;
 	margin-top:-600px;
-	
 }
 
+*/
